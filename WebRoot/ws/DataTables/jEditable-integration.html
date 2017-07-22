@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!--
+
+  Created using /
+  Source can be edited via /untitled/edit
+
+-->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+    <title>DataTables live example</title>
+    <style type="text/css">
+      @import "./media/css/demo_page.css";
+      @import "./media/css/demo_table.css";
+    </style>
+    <script type="text/javascript" language="javascript" src="./media/js/jquery.js"></script>
+    <script class="jsbin" src="./jquery.dataTables.nightly.js"></script>
+	<script class="jsbin" src="./jquery.jeditable.js"></script>
+  </head>
+  <body id="dt_example">
+    <div id="container">
+      <h1>Live example</h1>
+
+      <table cellpadding="0" cellspacing="0" border="0" class="display" id="example">
+        <thead>
+          <tr>
+            <th>Rendering engine</th>
+            <th>Browser</th>
+            <th>Platform(s)</th>
+            <th>Engine version</th>
+            <th>CSS grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Rendering engine</th>
+            <th>Browser</th>
+            <th>Platform(s)</th>
+            <th>Engine version</th>
+            <th>CSS grade</th>
+          </tr>
+        </tfoot>
+      </table>
+
+    </div>
+<script>
+var oTable;
+ 
+/* Formating function for row details */
+
+ 
+$(document).ready(function() {
+    oTable = $('#example').dataTable( {
+        "bProcessing": true,
+        "bServerSide": true,
+        "sAjaxSource": "./server_processing.php",
+		"fnDrawCallback": function () {
+            $('#example tbody td').editable( './editable_ajax.php', {
+                "callback": function( sValue, y ) {
+                    /* Redraw the table from the new data on the server */
+                    oTable.fnDraw();
+                },
+                "height": "14px"
+            } );
+        }
+    } );
+} );
+</script>
+</body>
+</html>

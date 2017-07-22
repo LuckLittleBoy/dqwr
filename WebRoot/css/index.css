@@ -1,0 +1,117 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+		margin:0;padding:0;
+		border:0;outline:0;
+		font-size:100%;
+		vertical-align:baseline;
+	
+		list-style-type:none
+	}
+	
+
+
+
+
+
+.header_content {
+
+	background: url("../images/index_02.jpg");
+	background-repeat: repeat -x;
+	
+	
+	
+}
+#body_content{
+	height: 58px;
+	padding-top: 0px;
+	
+}
+.header_content .logo {
+	height: 58px;
+	padding-top: 0px;
+
+}
+
+#sub_info {
+	width: 99%;
+	float:left;
+	background-image: url(../images/manage_r3_c11.jpg);
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #B4C9C6;
+	border-bottom-color: #B4C9C6;
+	border-left-color: #B4C9C6;
+	height: 27px;
+	background-repeat: repeat-x;
+	padding: 5px 0 0 0;
+}
+
+.menucontainer{background: #fff url(../images/bgOFF.gif) top left repeat-x; }
+/*basic menu styling*/
+.menu {float:left;font-family: Helvetica,arial,verdana,sans-serif;width:100%;position:relative;font-size:15px;font-weight:bold;
+background:url(../images/bgOFF.gif) repeat-x;}
+.menu ul {padding:0;margin:0;list-style-type:none;float:left;position:relative;}
+.menu ul li {float:left;position:relative;display:inline;}
+/*style of main items normal state*/
+.menu ul li a, .menu ul li a:visited {float:left;display:block;text-decoration:none;color:#034895;width:auto;height:23px;padding:0px 16px 0px 16px;line-height:23px;text-transform:uppercase;}
+* html .menu ul li a, .menu ul li a:visited {width:auto;w\idth:auto;}
+/*hide sub nav items*/
+.menu ul li ul {display:none;}
+/*style for table of sub nav items*/
+table {margin:-1px;border-collapse:collapse;font-size:11px;}
+/*specific to non IE browsers*/
+/*main nav over state*/
+.menu ul li:hover a {color:#000;background: url(../images/bgON.gif) top left repeat-x;}
+/*show drop-down list*/
+.menu ul li:hover ul {display:block;position:absolute;top:22px;margin-top:1px;left:0;width:100%;border-top:1px solid #fff;}
+/*drop-down on state*/
+.menu ul li:hover ul li a {display:block;background:#E6E6E6;color:#034895;height:auto;line-height:15px;padding:2px 16px 2px 16px;width:120px;border-bottom:1px solid #fff;}
+/*sub drop-down over state*/
+.menu ul li:hover ul li a:hover {background:#C9D2DF;color:#000;}
+
+
+#main,#footer{text-align:left;margin:0 auto;padding:0 3px;}
+
+.leftList{float:left;width:260px;height:900px;margin-top:10px;}
+.midList{float:left;width:340px;margin:0 25px;_margin:0 9px;margin-top:10px;}
+.rightList{float:right;width:340px;margin-top:10px;}
+
+.leftList2{float:left;width:260px;height:900px;margin-top:10px;}
+.midList2{float:left;width:340px;margin:0 25px;_margin:0 9px;margin-top:10px;}
+.rightList2{float:right;width:340px;margin-top:10px;}
+
+.banner{float:right;width:725px;text-align:left;_margin:0 9px;}
+
+.botNav{width:1400px;height:24px;margin:0 auto;padding:0 3px;background-color:#2f8bd6;text-align:center;margin-top:8px;}
+.botNav a{font-size:12px;color:#fff!important;line-height:24px;margin:0 10px;}
+.botNav a:hover{color:#CFE3F6!important;}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}* html
+.clearfix{zoom:1;}*:first-child+html .clearfix{zoom:1;}
+
+#man_zone {
+	height: 445px;
+	width: 100%;
+	border: 1px solid #B4C9C6;
+	margin: 6px 0 0 0;
+	background-color:#FFFFFF;
+	padding: 5px 0 5px 0;
+	overflow: auto;
+}
+
+
+
+
+.search{padding:6px 0 5px; border:1px solid #eee ;margin-top:10px}
+
+
+.i_inputWrap input[type="text"],.acatext{float:left;width:198px;height:16px;padding:2px 3px;border:2px solid #F5A523;border-radius:6px 0 0 6px;font-size:12px;line-height:16px;color:#222;}
+.i_inputWrap input[type="button"],.iss{display:block;float:right;width:46px;height:24px;background:url(../images/i-cnkiindex.png) no-repeat scroll 0 -103px transparent;border:0;text-indent:-9999px;*font-size:0;*line-height:0;cursor:pointer;}
+.aca_red p{padding:0;font-weight:bold;font-family:"宋体";}
+.loading{border:1px solid #eee;margin-top:10px}
+.connect{border:1px solid #eee;margin-top:10px}
+.translational{border:1px solid #eee;margin-top:10px}
+
+

@@ -1,0 +1,14 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/index.css" type="text/css" />
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" background="#B1D8EA" bgcolor="#B1D8EA">
+
+<div align="center" style="margin: 5px 0px 0px 10px;background-color: white;height: 98%;min-height: 550px;">
+	<img  style="margin-top: 3px" width="99.4%" src='../images/welback.jpg'>
+</div>
+</body>
+</html>

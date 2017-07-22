@@ -1,0 +1,245 @@
+  #div_bottom_right_inner {
+       margin-top: 5%;
+       margin-left: 10%;
+       margin-right: 10%;
+       border: none;
+       height:75%;      
+       over-flow:auto;（顺便说下，这句话去掉也不行，加上也是不对的）
+   }
+       #tab_img {
+       height: 100%;
+       width: 100%;
+       border: none;
+       table-layout: fixed;
+       over-flow:auto;（顺和上面的一样，这句话去掉也不行，加上也是不对的）
+   }
+   #tab_img td {
+       border:  none;
+   }
+   #tab_img img {
+       height: 100%;
+       width: 100%;
+        margin-top: 5%;
+   }
+ol, ul {
+    list-style: none;
+}
+fieldset, img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size:14px;
+     font-style: normal;
+     font-color:black;
+font-variant: normal;
+font-weight: normal;
+ line-height: 21px;
+text-decoration: none;
+}
+body {
+    color: #000000;
+    background: url() repeat-x #deebf3;
+    font: 14px/1.5 Tahoma, Helvetica, Arial, sans-serif;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+
+
+a:link, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+/* Header
+==========================================================*/
+.header {
+    margin: 0 10px 5px;
+}
+.topnav {
+    position: relative;
+    margin: 0 -10px 5px;
+    padding: 0 15px;
+    height: 2em;
+    line-height: 2;
+    background: #f5f5f5;
+    border-bottom: 1px solid #e3e3e3;
+}
+.topnav, .topnav a:link, .topnav a:visited {
+    color: #666;
+}
+.topnav a:hover, .topnav a:active {
+    color: #036;
+    text-decoration: underline;
+}
+
+.brand, .ad-banner {
+    margin-right: 7px;
+}
+.ad-banner {
+    width: 468px;
+    height: 60px;
+    overflow: hidden;
+}
+.ad-text {
+    float: right;
+    width: 258px;
+    height: 58px;
+    line-height: 1.6;
+    border: 1px solid #b0d7ff;
+    background: #f2f6fb; 
+}
+.ad-text li {
+    width: 49.9%;
+    text-indent: 3px;
+    white-space: nowrap;
+}
+.brand h1.site-name {
+    display: none;
+}
+.brand a img {
+    display: block;
+}
+
+/* Nav
+==========================================================*/
+.nav {
+	position: relative;
+	margin: 0 10px;
+	border-radius: 5px; 
+}
+.navinner {
+}
+.navlist {
+	padding-left:100px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+.navlist a{
+	font-weight:bold;
+}
+.nav li {
+    float: left;
+    display: inline;
+    margin: 0 0 0 -2px;
+    padding: 0 4px 0 6px;
+}
+.nav a {
+    display: block;
+    width: 102px;
+    text-align: center;
+    font-size: 120%;
+}
+.nav a:link, .nav a:visited {
+    color: #fff;
+}
+.nav a.current, .nav a:hover, .nav a:active {
+    color: #fff;
+    font-weight: bold;
+    background: url(../images/btnbg.png) ;
+}
+.subnav {
+    position: absolute;
+    top: 41px;
+    left: 0;
+    float: left;
+    height: 27px;
+    line-height: 27px;
+    white-space: nowrap;
+    background: url(../images/nav_bg.png) no-repeat 0 -180px;
+}
+* html .subnav {
+    margin: 0 10px 0 -10px; /* IE 6 and below */
+}
+.subnav p {
+    padding: 0 10px;
+    background: url(../images/nav_bg.png) no-repeat 100% -234px;
+}
+.subnav p span {
+    display: block;
+    background: url(../images/nav_bg.png) repeat-x 0 -207px;
+}
+.subnav p.pointer {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 5px;
+    width: 11px;
+    padding: 0;
+    margin-left: 20px;
+    text-indent: -999em;
+    background: url(../images/nav_bg.png) repeat-x 0 -261px;
+}
+.subnav a {
+    display: inline;
+    padding: 0;
+    font-size: 100%;
+}
+[class~="subnav"] a {
+    padding: 0 3px;
+}
+.subnav, .subnav a:link, .subnav a:visited {
+    color: #235e99;
+}
+.subnav a:hover, .subnav a:active {
+    color: #235e99;
+}
+.subnav a:hover, .subnav a:active {
+    font-weight: normal;
+    background: none;
+    border-bottom: 2px solid;
+}
+/* subnav position and pointer position */
+#subnav1 { left: 120px; }
+#subnav2 { left: 230px; }
+#subnav3 { left: 340px; }
+#subnav4 { left: 450px; }
+#subnav5 { left: 550px; }
+#subnav6 { left: 650px; } 
+#subnav7 { 
+    left: auto;
+    right: 0px;
+}
+
+#subnav1 .pointer,
+#subnav2 .pointer,
+#subnav3 .pointer,
+#subnav4 .pointer { left: 30px; }
+#subnav5 .pointer { left: auto; right: 130px; }
+#subnav6 .pointer { left: auto; right: 50px; }
+#subnav7 .pointer { left: auto; right: 70px; }
+
+#subnav1, #subnav2, #subnav3, #subnav4 {
+    min-width: 110px;
+}
+#subnav5 { min-width: 340px; }
+#subnav6 { min-width: 240px; }
+#subnav7 { min-width: 130px; }
+
+
+/*行业要闻*/
+.hyyw{width:352px;}
+.hyyw h1{width:352px;height:33px;background:url(../images/title.png);color:#de3237;font-size:14px;}
+.hyyw h1 span{display:blick;height:33px;line-height:34px;margin-left:30px;float:left;}
+.hyyw h1 a{display:block;float:right;margin-right:10px;color:#de3437;margin-top:8px;}
+.hyyw h1 a:hover{text-decoration:underline;}
+
+.hyyw .list{margin-top:-20px;border:1px solid #dfdfdf;border-top:none;height:208px;width:350px;}
+.hyyw .list ul{padding-left:5px;}
+
+
+.hyyw .list ul li{width:350px;float:left;margin-top:10px;*margin-top:-8px;_margin-top:-10px;}
+.hyyw .list ul li img{display:block;float:left;margin-left:10px;margin-top:3px;_margin-left:5px;}
+.hyyw .list ul li a{display:block;float:left;margin-left:5px;color:#696969;}
+.hyyw .list ul li a:hover{color:#de3237;text-decoration:underline;}

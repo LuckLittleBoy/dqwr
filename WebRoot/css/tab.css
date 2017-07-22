@@ -1,0 +1,58 @@
+ul,li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#tabfirst li {
+	float: left;
+	background-color: #868686;
+	color: white;
+	padding: 5px;
+	margin-right: 2px;
+	border: 1px solid white;
+}
+#tabfirst li.tabin {
+	background-color: #6E6E6E;
+	border: 1px solid #6E6E6E;
+}
+div.contentfirst {
+	clear: left;
+	background-color: #6E6E6E;
+	color: white;
+	width: 300px;
+	height: 100px;
+	padding: 10px;
+	display: none;
+}
+div.contentin {
+	display: block;
+}
+
+#tabsecond li {
+	float: left;
+	background-color: white;
+	color: blue;
+	padding: 5px;
+	margin-right: 2px;
+	cursor: pointer;
+}
+#tabsecond li.tabin {
+	background-color: #F2F6FB;
+	border: 1px solid black;
+	border-bottom: 0;
+	z-index: 100;
+	position: relative;
+}
+#contentsecond {
+	width: 500px;
+	height: 200px;
+	padding: 10px;
+	background-color: #F2F6FB;
+	clear: left;
+	border: 1px solid black;
+	position: relative;
+	top: -1px;
+}
+img {
+	display: none;
+}

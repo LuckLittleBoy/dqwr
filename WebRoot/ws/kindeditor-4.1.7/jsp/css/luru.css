@@ -1,0 +1,93 @@
+.ico {vertical-align:middle; width:24px; height:24px; text-align:center}
+.ico2 {vertical-align:middle; width:27px; height:24px; text-align:center}
+.ico3 {vertical-align:middle; width:25px; height:24px; text-align:center}
+.ico4 {vertical-align:middle; width:8px; height:24px; text-align:center}
+
+.icons{width:20px;height:20px;background-image:url(images/icons.gif);background-repeat:no-repeat;}
+.iconRemoveFormat{background-position:-343px 0}
+.iconFontFamily{width:25px;background-position:-293px 0}
+.iconFontSize{width:25px;background-position:-318px 0}
+.iconBold{background-position:-4px 0}
+.iconItalic{background-position:-24px 0}
+.iconUnderline{background-position:-44px 0}
+.iconJustifyLeft{background-position:-64px 0}
+.iconJustifyCenter{background-position:-84px 0}
+.iconJustifyRight{background-position:-104px 0}
+.iconInsertOrderedList{background-position:-124px 0}
+.iconInsertUnorderedList{background-position:-144px 0}
+.iconIndent{background-position:-164px 0}
+.iconOutdent{background-position:-184px 0}
+.iconInsertHyperlink{background-position:-204px 0}
+.iconInsertImage{background-position:-227px 0}
+.iconForeColor{background-position:-246px 0}
+.iconBackColor{background-position:-269px 0}
+.iconFontFamily{background-position:-293px 0}
+.iconFontSize{background-position:-318px 0}
+.iconInsertTable{background-position:-363px 0}
+
+.fieldset_style{
+
+
+margin:0px 0px 0px 0px;
+}
+#fieldset_style_inner{
+background-color:#F6F6F6;
+margin:5px 0px 5px 0px;
+}
+#fieldset_style{
+background-color:#F6F6F6;
+width:676px;
+margin:5px 0px 5px 0px;
+}
+#fieldset_style_inner{
+background-color:#F6F6F6;
+margin:5px 0px 5px 0px;
+}
+#left_span{
+margin-left:8px;
+}
+#right_span{
+margin:8px 10px 8px 250px;
+}
+span{
+	margin:5px 10px 5px 10px;
+}
+
+.span_left{
+
+width:676px;
+ float:left; 
+}
+.span_right{
+border:thin;
+width:208px;
+float:right; 
+
+}
+.odd_tr{
+	background-color:#ffffff;
+}
+even_tr{
+	background-color:#F6F6F6
+}
+.left_title{
+width:215px;
+background-color:#CCE8F2;
+border:solid 1px #43A3D4; 
+margin:5px 10px 0px 10px;
+
+}
+.left_msg{
+width:215px;
+background-color:#F6F6F6;
+border:solid 1px #43A3D4;
+margin:0px 10px 5px 10px;
+}
+
+	body{font:14px/1.5  宋体,宋体, \5b8b\4f53, sans-serif;}
+	ul { margin:0; padding:0; list-style:none; }
+	a { margin-left:5px; color:#07F; text-decoration:none; }
+	a:hover { text-decoration:underline; }
+	input { border:1px solid #ccc; margin:2px; }
+	table { border-collapse:collapse; border-spacing:0; }
+	td { margin:0; padding:10px; border:1px solid #ccc; }

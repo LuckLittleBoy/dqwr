@@ -1,0 +1,114 @@
+
+jQuery(function(){
+	jQuery.post("/kjzc/ws/jquery/xdzc.jsp",
+			{"pagesize":jQuery("#pagesize").val(),
+				"pageno":jQuery("#pageno").val(),
+				"search":jQuery("#search").val(),
+				"find":jQuery("#find").val(),
+				"sxzt":jQuery("#sxzt").val(),
+				"timesearch":jQuery("#timesearch").val(),
+				"startT":jQuery("#startT").val(),
+				"endT":jQuery("#endT").val(),
+				"shzt":jQuery("#shzt").val()
+			},function(response){
+		jQuery("#xdzc").html(response);
+	
+	});
+	$("#select").click(function(){
+		jQuery.post("/kjzc/ws/jquery/xdzc2.jsp",
+				{"pagesize":jQuery("#pagesize").val(),
+					"pageno":jQuery("#pageno").val(),
+					"search":jQuery("#search").val(),
+					"find":jQuery("#find").val(),
+					"sxzt":jQuery("#sxzt").val(),
+					"timesearch":jQuery("#timesearch").val(),
+					"startT":jQuery("#startT").val(),
+					"endT":jQuery("#endT").val(),
+					"shzt":jQuery("#shzt").val()
+				},function(response){
+			jQuery("#xdzc").html(response);
+		});
+	});
+	
+
+});
+function xiaye(){
+	jQuery("#pageno").val(parseInt(jQuery("#pageno").val())+1);
+	jQuery.post("/kjzc/ws/jquery/xdzc2.jsp",
+			{"pagesize":jQuery("#pagesize").val(),
+				"pageno":jQuery("#pageno").val(),
+				"search":jQuery("#search").val(),
+				"find":jQuery("#find").val(),
+				"sxzt":jQuery("#sxzt").val(),
+				"timesearch":jQuery("#timesearch").val(),
+				"startT":jQuery("#startT").val(),
+				"endT":jQuery("#endT").val(),
+				"shzt":jQuery("#shzt").val()
+			},function(response){
+		jQuery("#xdzc").html(response);
+	});
+}
+function shangye(){
+	jQuery("#pageno").val(parseInt(jQuery("#pageno").val())-1);
+	jQuery.post("/kjzc/ws/jquery/xdzc2.jsp",
+			{"pagesize":jQuery("#pagesize").val(),
+				"pageno":jQuery("#pageno").val(),
+				"search":jQuery("#search").val(),
+				"find":jQuery("#find").val(),
+				"sxzt":jQuery("#sxzt").val(),
+				"timesearch":jQuery("#timesearch").val(),
+				"startT":jQuery("#startT").val(),
+				"endT":jQuery("#endT").val(),
+				"shzt":jQuery("#shzt").val()
+			},function(response){
+		jQuery("#xdzc").html(response);
+	});
+}
+function tiaozhuan(){
+	jQuery("#pageno").val(parseInt(jQuery("#pageno2").val()));
+	jQuery.post("/kjzc/ws/jquery/xdzc2.jsp",
+			{"pagesize":jQuery("#pagesize").val(),
+				"pageno":jQuery("#pageno").val(),
+				"search":jQuery("#search").val(),
+				"find":jQuery("#find").val(),
+				"sxzt":jQuery("#sxzt").val(),
+				"timesearch":jQuery("#timesearch").val(),
+				"startT":jQuery("#startT").val(),
+				"endT":jQuery("#endT").val(),
+				"shzt":jQuery("#shzt").val()
+			},function(response){
+		jQuery("#xdzc").html(response);
+	});
+}
+function sy(){
+	jQuery("#pageno").val(0);
+	jQuery.post("/kjzc/ws/jquery/xdzc2.jsp",
+			{"pagesize":jQuery("#pagesize").val(),
+				"pageno":jQuery("#pageno").val(),
+				"search":jQuery("#search").val(),
+				"find":jQuery("#find").val(),
+				"sxzt":jQuery("#sxzt").val(),
+				"timesearch":jQuery("#timesearch").val(),
+				"startT":jQuery("#startT").val(),
+				"endT":jQuery("#endT").val(),
+				"shzt":jQuery("#shzt").val()
+			},function(response){
+		jQuery("#xdzc").html(response);
+	});
+}
+function my(){
+	jQuery("#pageno").val(parseInt(jQuery("#max").val()));
+	jQuery.post("/kjzc/ws/jquery/xdzc2.jsp",
+			{"pagesize":jQuery("#pagesize").val(),
+				"pageno":jQuery("#pageno").val(),
+				"search":jQuery("#search").val(),
+				"find":jQuery("#find").val(),
+				"sxzt":jQuery("#sxzt").val(),
+				"timesearch":jQuery("#timesearch").val(),
+				"startT":jQuery("#startT").val(),
+				"endT":jQuery("#endT").val(),
+				"shzt":jQuery("#shzt").val()
+			},function(response){
+		jQuery("#xdzc").html(response);
+	});
+}

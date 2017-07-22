@@ -1,0 +1,242 @@
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+		margin:0;padding:0;
+		border:0;outline:0;
+		font-size:100%;
+		vertical-align:baseline;
+		background:transparent;
+		list-style-type:none
+	}
+	
+	
+	body{	background: #FFFACD;
+	;font:12px/1.5 "Microsoft YaHei",tahoma,Verdana,Geneva,sans-serif;color:#666;}
+HTML {
+	OVERFLOW-Y: scroll
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #3333ff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.panel {
+	BACKGROUND: #B1D8EA; COLOR: #000000 ;width: 240px;height: 510px;  margin-top:0px; left-margin:0px; 
+}
+#expand_link {
+	FONT-SIZE: 9pt; LEFT: 140px; POSITION: absolute; TOP: 11px; TEXT-DECORATION: underline
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 16px; BORDER-BOTTOM: 0px; HEIGHT: 16px
+}
+#body {
+	border: #ffffff 2px solid; PADDING-BOTTOM: 10px; background:#ffffff; WIDTH: 98%; PADDING-TOP: 0px;min-height: 580px;;margin-top: 5px; 	position: absolute;
+}
+#menu {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: medium none;margin-top:2px;;position: relative;
+}
+.U1 {
+	BACKGROUND: #ffffff; 
+}
+.L1 A:link {
+	DISPLAY: block; FONT-SIZE: 16px; BACKGROUND: url(../images/img/menu1_bg.png); COLOR: #476074; HEIGHT: 24px; TEXT-DECORATION: none
+}
+.L1 A:visited {
+	DISPLAY: block; FONT-SIZE: 16px; BACKGROUND: url(../images/img/menu1_bg.png); COLOR: #476074; HEIGHT: 24px; TEXT-DECORATION: none
+}
+.L1 A:link SPAN {
+	
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/ico/ar1.png) no-repeat left 50%; PADDING-BOTTOM: 8px; VERTICAL-ALIGN: middle; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 7px; HEIGHT: 24px
+}
+.L1 A:visited SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/ico/ar1.png) no-repeat left 50%; PADDING-BOTTOM: 8px; VERTICAL-ALIGN: middle; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 7px; HEIGHT: 24px
+}
+.L1 A:hover {
+	
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/img/menu1_bg.png) 0px -24px; COLOR: #000000
+}
+.L1 A.active:link {
+	BACKGROUND: url(../images/img/menu1_bg.png) 0px -24px
+}
+.L1 A.active:hover {
+	BACKGROUND: url(../images/img/menu1_bg.png) 0px -24px
+}
+.L1 A.active:active {
+	BACKGROUND: url(../images/img/menu1_bg.png) 0px -24px
+}
+.L1 A.active:visited {
+	BACKGROUND: url(../images/img/menu1_bg.png) 0px -24px
+}
+.L1 A.active:link SPAN {
+	margin-top:10px;
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/ico/ad1.png) no-repeat left 50%; COLOR: #000000
+}
+.L1 A.active:hover SPAN {
+	margin-top:10px;
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/ico/ad1.png) no-repeat left 50%; COLOR: #000000
+}
+.L1 A.active:active SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/ico/ad1.png) no-repeat left 50%; COLOR: #000000
+}
+.L1 A.active:visited SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/ico/ad1.png) no-repeat left 50%; COLOR: #000000
+}
+.L21 A:link {
+	DISPLAY: block; PADDING-LEFT: 30px; FONT-SIZE: 14px;; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #444659; HEIGHT: 24px; TEXT-DECORATION: none
+}
+.L21 A:visited {
+	DISPLAY: block; PADDING-LEFT: 30px; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #444659; HEIGHT: 24px; TEXT-DECORATION: none
+}
+.L22 A:link {
+	DISPLAY: block; PADDING-LEFT: 45px; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #444659; HEIGHT: 24px; TEXT-DECORATION: none
+}
+.L22 A:visited {
+	DISPLAY: block; PADDING-LEFT: 45px; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #444659; HEIGHT: 24px; TEXT-DECORATION: none
+}
+.L3 A:link {
+	DISPLAY: block; PADDING-LEFT: 50px; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #444659; HEIGHT: 24px; TEXT-DECORATION: none
+}
+.L3 A:visited {
+	DISPLAY: block; PADDING-LEFT: 50px; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #444659; HEIGHT: 24px; TEXT-DECORATION: none
+}
+.L21 A:link SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/ico/ar.png) no-repeat left center; PADDING-BOTTOM: 8px; VERTICAL-ALIGN: middle; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 7px
+}
+.L21 A:visited SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/ico/ar.png) no-repeat left center; PADDING-BOTTOM: 8px; VERTICAL-ALIGN: middle; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 7px
+}
+.L22 A:link SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/ico/ar.png) no-repeat left center; PADDING-BOTTOM: 8px; VERTICAL-ALIGN: middle; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 7px
+}
+.L22 A:visited SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/ico/ar.png) no-repeat left center; PADDING-BOTTOM: 8px; VERTICAL-ALIGN: middle; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 7px
+}
+.L3 A:link SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/ico/ar.png) no-repeat left center; PADDING-BOTTOM: 8px; VERTICAL-ALIGN: middle; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 7px
+}
+.L3 A:visited SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/ico/ar.png) no-repeat left center; PADDING-BOTTOM: 8px; VERTICAL-ALIGN: middle; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 7px
+}
+.L22 A:link SPAN {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.L22 A:visited SPAN {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.L3 A:link SPAN {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.L3 A:visited SPAN {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.L21 A:hover {
+	FONT-WEIGHT: bold; BACKGROUND: #C5E7FD
+}
+.L22 A:hover {
+	FONT-WEIGHT: bold; BACKGROUND: #C5E7FD
+}
+.L3 A:hover {
+	FONT-WEIGHT: bold; BACKGROUND: #C5E7FD no-repeat left top
+}
+.L3 A:link SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 7px
+}
+.L3 A:visited SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 7px
+}
+.L21 A.active:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.L21 A.active:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.L21 A.active:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.L21 A.active:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.L21 A.active:link SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/ico/ad.png) no-repeat left center; COLOR: #000000
+}
+.L21 A.active:hover SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/ico/ad.png) no-repeat left center; COLOR: #000000
+}
+.L21 A.active:active SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/ico/ad.png) no-repeat left center; COLOR: #000000
+}
+.L21 A.active:visited SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/ico/ad.png) no-repeat left center; COLOR: #000000
+}
+.L22 A.active:link {
+	BACKGROUND: #81ABCA
+}
+.L22 A.active:hover {
+	BACKGROUND: #81ABCA
+}
+.L22 A.active:active {
+	BACKGROUND: #81ABCA
+}
+.L22 A.active:visited {
+	BACKGROUND: #81ABCA
+}
+.L3 A.active:link {
+	BACKGROUND: #81ABCA
+}
+.L3 A.active:hover {
+	BACKGROUND: #81ABCA
+}
+.L3 A.active:active {
+	BACKGROUND: #81ABCA
+}
+.L3 A.active:visited {
+	BACKGROUND: #81ABCA
+}
+.L22 A.active:link SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff
+}
+.L22 A.active:hover SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff
+}
+.L22 A.active:active SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff
+}
+.L22 A.active:visited SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff
+}
+.L3 A.active:link SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff
+}
+.L3 A.active:hover SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff
+}
+.L3 A.active:active SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff
+}
+.L3 A.active:visited SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff
+}
+.Ls A:link {
+	PADDING-RIGHT: 4px; FONT-SIZE: 9pt; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 4px; HEIGHT: 20px; TEXT-ALIGN: right; TEXT-DECORATION: underline
+}
+.Ls A:visited {
+	PADDING-RIGHT: 4px; FONT-SIZE: 9pt; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 4px; HEIGHT: 20px; TEXT-ALIGN: right; TEXT-DECORATION: underline
+}
+.Ls A:hover {
+	PADDING-RIGHT: 4px; FONT-SIZE: 9pt; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 4px; HEIGHT: 20px; TEXT-ALIGN: right; TEXT-DECORATION: underline
+}
+.Ls A:active {
+	PADDING-RIGHT: 4px; FONT-SIZE: 9pt; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 4px; HEIGHT: 20px; TEXT-ALIGN: right; TEXT-DECORATION: underline
+}
+

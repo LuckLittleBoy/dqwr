@@ -1,0 +1,123 @@
+body{
+margin:10px 0px 0px 10px;
+font-family:"宋体";
+font-size:15px;
+background-color:#B1D8EA;
+}
+#HeaderDiv{
+background-color:#F1F7FC;
+width:950px;
+height:20px;
+margin:8px 0px 8px 0px;
+padding:5px;
+}
+#contentDiv{
+background-color:#F1F7FC;
+width:950px;
+height:20px;
+margin:8px 0px 8px 0px;
+padding:5px;
+}
+.fieldset_style{
+background-color:#ffffff;
+width:720px;
+margin:5px 0px 5px 0px;
+padding:5px 5px 10px 10px;
+}
+#fieldset_style_inner{
+background-color:#ffffff;
+margin:5px 15px 5px 15px;
+
+}
+#left_span{
+margin-left:8px;
+}
+#right_span{
+margin:8px 10px 8px 250px;
+}
+span{
+	margin:5px 10px 5px 10px;
+}
+
+.span_left{
+
+width:676px;
+ float:left; 
+}
+.span_right{
+border:thin;
+width:208px;
+float:right; 
+
+}
+.odd_tr{
+	background-color:#ffffff;
+}
+even_tr{
+	background-color:#F6F6F6
+}
+.left_title{
+width:215px;
+background-color:#CCE8F2;
+border:solid 1px #43A3D4; 
+margin:5px 10px 0px 10px;
+
+}
+.left_msg{
+width:215px;
+background-color:#F6F6F6;
+border:solid 1px #43A3D4;
+margin:0px 10px 5px 10px;
+}
+/*绝对定位 + z-index */ 
+.progressbar{ 
+    background-color:#eee; 
+    color:#222; 
+    height:16px; 
+    width:650px; 
+    border:1px solid #bbb; 
+    text-align:center; 
+    position:relative; 
+} 
+.progressbar .bar { 
+    background-color:#0099ff; 
+    height:16px; 
+    width:0; 
+    position:absolute; 
+    left:0; 
+    top:0; 
+    z-index:10; 
+} 
+.progressbar .text { 
+    height:16px; 
+    position:absolute; 
+    left:0; 
+    top:0; 
+    width:100%; 
+    line-height:16px; 
+     
+    z-index:100; 
+}
+#search_suggest
+    {
+        position: absolute;
+        width:396px;
+        background-color: #FFFFFF;
+        text-align: left;
+        margin-left:2px;
+        border: 1px solid #0099ff;
+    }
+    .divpostion{
+	margin:10px 10px 5px 5px;
+	
+	}
+	.divpostion_content{
+	margin:30px 10px 5px 5px;
+	
+	}
+	button_page{
+	width:50px;
+	}
+	
+	
+	

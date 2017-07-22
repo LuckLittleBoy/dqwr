@@ -1,0 +1,33 @@
+.loading {
+	width: 400px;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	margin: 0 auto;
+	visibility: hidden; 
+}
+.loading p {
+	text-align: center;
+}
+p {
+	margin: 0;
+}
+.car {
+	/*width: 500px;*/
+	/*margin: 0 auto;*/
+	text-align: center;
+}
+.carimage {
+	text-align: center;
+}
+.cartype, .wheeltype, .carloading, .carimg, .car img {
+	display: none;
+}
+
+table, th, td{
+  	border-collapse:collapse;
+  	border: 1px solid #eee;
+}
+th{
+  	background: #C1E4F8
+}
+

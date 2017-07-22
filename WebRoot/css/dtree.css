@@ -1,0 +1,131 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+		margin:0;padding:0;
+		border:0;outline:0;
+		font-size:100%;
+		vertical-align:baseline;
+		background:transparent;
+		list-style-type:none
+	}
+	
+
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000000;
+	white-space: nowrap;
+	padding-left:4px;
+}
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtree a {
+	color: #000000;
+	text-decoration: none;
+}
+.dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+.dtree a.nodeSel {
+	background-color: #c0d2ec;
+}
+.dtree .clip {
+	overflow: hidden;
+}
+p{
+		font-family:arial;
+		
+	}
+	
+	.tree{
+		margin:0px;
+		padding:0px;
+	}
+	.tree ul{
+		margin-left:20px;	/* Left spacing */
+		padding-left:0px;
+	}
+	.tree li{	
+		list-style-type:none;
+		vertical-align:middle;
+		
+	}
+	.tree li a{
+		color:#000;
+		text-decoration:none;
+		font-family:arial;
+		font-size:0.8em;
+		padding-left:2px;
+	}
+	
+	
+
+#HeaderDiv{
+background-color:#F1F7FC;
+width:950px;
+height:20px;
+margin:8px 0px 8px 0px;
+padding:5px;
+}
+#contentDiv{
+background-color:#F1F7FC;
+width:950px;
+height:20px;
+margin:8px 0px 8px 0px;
+padding:5px;
+}
+.fieldset_style{
+background-color:#F6F6F6;
+width:776px;
+margin:5px 0px 5px 0px;
+}
+#fieldset_style_inner{
+background-color:#F6F6F6;
+margin:5px 0px 5px 0px;
+}
+#left_span{
+margin-left:8px;
+}
+#right_span{
+margin:8px 10px 8px 250px;
+}
+span{
+	margin:5px 10px 5px 10px;
+}
+.span_left{
+
+width:676px;
+ float:left; 
+}
+.span_right{
+border:thin;
+width:208px;
+float:right; 
+
+}
+.odd_tr{
+	background-color:#ffffff;
+}
+even_tr{
+	background-color:#F6F6F6
+}
+.left_title{
+width:230px;
+height:25px;
+background-color:#CCE8F2;
+border:solid 1px #43A3D4; 
+margin:5px 0px 0px 2px;
+font-size:15px;
+}
+.left_msg{
+width:215px;
+font-size:6px;
+background-color:#F6F6F6;
+border:solid 1px #43A3D4;
+margin:0px 10px 5px 10px;
+}
